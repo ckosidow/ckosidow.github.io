@@ -1,5 +1,18 @@
 @import "bulma/bulma.sass"
 
+.title-text
+  text-shadow : 2px 2px 5px black
+
+.is-parallax
+  background-attachment: fixed
+  background-position: center
+  background-repeat: no-repeat
+  background-size: cover
+
+#conor-navbar
+  position : sticky
+  top      : 0
+
 #home-personal-photo
   border-radius: 50%
   display: flex
@@ -11,15 +24,13 @@
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg")
 
 #home-mid-banner
-  background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash%20(1).jpg")
+  background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash (1).jpg")
   height : 500px
 
 #home-bot-banner
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg")
   height : 500px
 
-.is-parallax
-  background-attachment: fixed
-  background-position: center
-  background-repeat: no-repeat
-  background-size: 100%
+@media screen and (max-device-width: 1023px)
+  .is-parallax
+    background-attachment: scroll

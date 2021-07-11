@@ -10,9 +10,9 @@
     <link href="css/site.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<nav class="navbar" role="navigation">
+<nav class="navbar" id="conor-navbar" role="navigation">
     <div class="navbar-brand">
-        <a href="https://www.github.com" class="navbar-item"><3 GitHub</a>
+        <a href="index.html" class="navbar-item">Home</a>
     </div>
     <div class="navbar-menu">
         <div class="navbar-start"></div>
@@ -30,10 +30,10 @@
     <div class="section">
         <div class="container">
             <img id=home-personal-photo src="images/conor-edited.png">
-            <div class="is-flex is-justify-content-center has-text-centered">
+            <div class="is-flex is-justify-content-center has-text-centered title-text pt-4">
                 <h1 class="has-text-white is-size-1">Conor Kosidowski</h1>
             </div>
-            <div class="is-flex is-justify-content-center has-text-centered">
+            <div class="is-flex is-justify-content-center has-text-centered title-text">
                 <h5 class="has-text-white is-size-3">Software Developer</h5>
             </div>
             <div class="is-flex is-justify-content-center pt-5">
@@ -104,9 +104,22 @@
 
 <div class="container">
     <div class="section">
-        <div class="columns">
+        <div class="columns is-multiline is-mobile">
             <div class="column is-12">
-                <h4 class="is-size-4">Outside of Work</h4>
+                <h5 class="icon-text is-size-4 pb-3">
+                    <i class="material-icons">engineering</i>
+                    <span class="pl-3">Projects</span>
+                </h5>
+                <p>
+                    I have a few notable projects I've worked on over the years. You can check them out
+                    <a href="projects.html">here</a>.
+                </p>
+            </div>
+            <div class="column is-12">
+                <h5 class="icon-text is-size-4 pb-3">
+                    <i class="material-icons">fitness_center</i>
+                    <span class="pl-3">Outside of Work</span>
+                </h5>
                 <p>
                     When I'm not working I like to read, work out and run. Occasionally I enjoy working on side
                     projects and traveling with family and friends.
@@ -121,7 +134,6 @@
 
 <footer class="footer">
     <div class="container">
-        <h5 class="is-size-3">Finally</h5>
         <div class="columns is-mobile is-multiline">
             <div class="column is-6-mobile is-4-tablet">
                 <h5 class="is-size-5">Thanks for coming!</h5>

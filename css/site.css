@@ -14137,6 +14137,25 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 /* line 3, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.title-text {
+  text-shadow: 2px 2px 5px black;
+}
+
+/* line 6, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.is-parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 12, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+#conor-navbar {
+  position: sticky;
+  top: 0;
+}
+
+/* line 16, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-personal-photo {
   border-radius: 50%;
   display: flex;
@@ -14145,29 +14164,28 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   box-shadow: 3px 5px 10px black;
 }
 
-/* line 10, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 23, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-top-banner {
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg");
 }
 
-/* line 13, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 26, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-mid-banner {
-  background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash%20(1).jpg");
+  background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash (1).jpg");
   height: 500px;
 }
 
-/* line 17, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 30, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-bot-banner {
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg");
   height: 500px;
 }
 
-/* line 21, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
-.is-parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
+@media screen and (max-device-width: 1023px) {
+  /* line 35, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+  .is-parallax {
+    background-attachment: scroll;
+  }
 }
 
 /*# sourceMappingURL=site.css.map */
