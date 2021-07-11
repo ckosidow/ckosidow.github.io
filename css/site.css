@@ -14148,27 +14148,26 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 /* line 10, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-top-banner {
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg");
-  height: 500px;
 }
 
-/* line 14, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 13, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-mid-banner {
   background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash%20(1).jpg");
   height: 500px;
 }
 
-/* line 18, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 17, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-bot-banner {
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg");
   height: 500px;
 }
 
-/* line 22, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 21, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .is-parallax {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 /*# sourceMappingURL=site.css.map */
