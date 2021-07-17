@@ -14147,11 +14147,19 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 /* line 9, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.project-media {
+  display: inline-block;
+  height: 300px;
+  width: 500px;
+  vertical-align: top;
+}
+
+/* line 15, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .title-text {
   text-shadow: 2px 2px 5px black;
 }
 
-/* line 12, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 18, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .is-parallax {
   background-attachment: fixed;
   background-position: center;
@@ -14159,20 +14167,20 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-size: cover;
 }
 
-/* line 18, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 24, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container {
   -ms-overflow-style: none;
   position: relative;
 }
 
-/* line 22, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 28, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel {
   overflow: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
 
-/* line 28, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 34, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel::before, .carousel-container .carousel::after {
   pointer-events: none;
   padding-top: 1rem;
@@ -14181,17 +14189,17 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 2rem;
 }
 
-/* line 35, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 41, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel::before {
   content: '<';
 }
 
-/* line 38, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 44, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel::after {
   content: '>';
 }
 
-/* line 41, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 47, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-next, .carousel-prev {
   font-size: 0;
   display: block;
@@ -14200,23 +14208,23 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   width: 3rem;
 }
 
-/* line 48, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 54, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel::before, .carousel::after, .carousel-next, .carousel-prev {
   position: absolute;
   top: 35%;
 }
 
-/* line 52, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 58, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel::before, .carousel-prev {
   left: 0;
 }
 
-/* line 55, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 61, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel::after, .carousel-next {
   right: 0;
 }
 
-/* line 58, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 64, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-snapper {
   position: absolute;
   top: 0;
@@ -14227,24 +14235,24 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   pointer-events: none;
 }
 
-/* line 67, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 73, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-slide {
   position: relative;
   padding: 0;
 }
 
-/* line 71, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 77, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-slide-content {
   padding: 3rem;
 }
 
-/* line 74, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 80, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #conor-navbar {
   position: sticky;
   top: 0;
 }
 
-/* line 78, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 84, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-personal-photo {
   border-radius: 50%;
   display: flex;
@@ -14253,25 +14261,25 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   box-shadow: 3px 5px 10px black;
 }
 
-/* line 85, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 91, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-top-banner {
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg");
 }
 
-/* line 88, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 94, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-mid-banner {
   background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash (1).jpg");
   height: 500px;
 }
 
-/* line 92, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 98, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-bot-banner {
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg");
   height: 500px;
 }
 
 @media screen and (max-device-width: 1023px) {
-  /* line 97, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+  /* line 103, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
   .is-parallax {
     background-attachment: scroll;
   }
