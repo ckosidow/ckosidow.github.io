@@ -14137,11 +14137,21 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 /* line 3, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+* {
+  scrollbar-width: none;
+}
+
+/* line 6, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 9, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .title-text {
   text-shadow: 2px 2px 5px black;
 }
 
-/* line 6, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 12, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .is-parallax {
   background-attachment: fixed;
   background-position: center;
@@ -14149,13 +14159,92 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-size: cover;
 }
 
-/* line 12, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 18, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-container {
+  -ms-overflow-style: none;
+  position: relative;
+}
+
+/* line 22, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-container .carousel {
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+/* line 28, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-container .carousel::before, .carousel-container .carousel::after {
+  pointer-events: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 2rem;
+}
+
+/* line 35, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-container .carousel::before {
+  content: '<';
+}
+
+/* line 38, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-container .carousel::after {
+  content: '>';
+}
+
+/* line 41, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-next, .carousel-prev {
+  font-size: 0;
+  display: block;
+  position: absolute;
+  height: 4rem;
+  width: 3rem;
+}
+
+/* line 48, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel::before, .carousel::after, .carousel-next, .carousel-prev {
+  position: absolute;
+  top: 35%;
+}
+
+/* line 52, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel::before, .carousel-prev {
+  left: 0;
+}
+
+/* line 55, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel::after, .carousel-next {
+  right: 0;
+}
+
+/* line 58, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+  pointer-events: none;
+}
+
+/* line 67, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-slide {
+  position: relative;
+  padding: 0;
+}
+
+/* line 71, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.carousel-slide-content {
+  padding: 3rem;
+}
+
+/* line 74, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #conor-navbar {
   position: sticky;
   top: 0;
 }
 
-/* line 16, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 78, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-personal-photo {
   border-radius: 50%;
   display: flex;
@@ -14164,25 +14253,25 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   box-shadow: 3px 5px 10px black;
 }
 
-/* line 23, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 85, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-top-banner {
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg");
 }
 
-/* line 26, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 88, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-mid-banner {
   background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash (1).jpg");
   height: 500px;
 }
 
-/* line 30, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 92, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-bot-banner {
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg");
   height: 500px;
 }
 
 @media screen and (max-device-width: 1023px) {
-  /* line 35, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+  /* line 97, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
   .is-parallax {
     background-attachment: scroll;
   }

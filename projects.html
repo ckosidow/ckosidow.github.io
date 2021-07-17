@@ -19,106 +19,138 @@
         <div class="navbar-end">
             <div class="navbar-item">
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="https://www.github.com/ckosidow">My GitHub</a></li>
+                    <li><a>Projects</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
-<div class="section">
-    <div class="columns is-mobile is-multiline">
-        <div class="column is-12">
-            <h4 class="is-size-4">
-                Fastenal Product Search UI
-            </h4>
-            <div class="content">
-                <p>
-                    My team at Fastenal worked on a number of search APIs for the company. One prominent
-                    API was our product API, but our team had no official front-end to showcase its features
-                    and functionality. So I made an SPA using Vue JS, Vue Router, Spring Boot and Bulma CSS to
-                    show how quick and accurate our search engine could be.
-                </p>
-                <p>
-                    I had some interesting learning lessons with this project. Handling state and navigation
-                    was initially a problem as I tried to do this manually using a big javascript object. I
-                    JSON stringified it and encoded it in the URL to handle page reloads and URL sharing. This
-                    quickly became a problem as the URLs were too large and I feared I was reinventing the
-                    wheel, making the app too confusing to maintain. This led to Vue Router and I redesigned
-                    the app to utilize routes.
-                </p>
-                <p>
-                    I enjoyed working on this project, fiddling with UI elements and learning Vue. With
-                    more time and resources one future change would be storing shareable links in a database
-                    rather than passing parameters around during navigation. The URLs ended up being
-                    large and unsightly; keeping them simple with a shareable link option could contribute
-                    nicely to the overall app experience.
-                </p>
+<div class="section carousel-container p-0">
+    <div class="columns carousel is-mobile">
+        <div class="column is-12 carousel-slide" id="proj-1">
+            <div class="carousel-snapper"></div>
+            <a href="#proj-4" class="carousel-prev">Previous</a>
+            <div class="carousel-slide-content">
+                <h4 class="is-size-4">
+                    Fastenal Product Search UI
+                </h4>
+                <div class="content">
+                    <p>
+                        My team at Fastenal worked on a number of search APIs for the company. One prominent
+                        API was our product API, but our team had no official front-end to showcase its features
+                        and functionality. So I made an SPA using Vue JS, Vue Router, Spring Boot and Bulma CSS to
+                        show how quick and accurate our search engine could be.
+                    </p>
+                    <p>
+                        I had some interesting learning lessons with this project. Handling state and navigation
+                        was initially a problem as I tried to do this manually using a big javascript object. I
+                        JSON stringified it and encoded it in the URL to handle page reloads and URL sharing. This
+                        quickly became a problem as the URLs were too large and I feared I was reinventing the
+                        wheel, making the app too confusing to maintain. This led to Vue Router and I redesigned
+                        the app to utilize routes.
+                    </p>
+                    <p>
+                        I enjoyed working on this project, fiddling with UI elements and learning Vue. With
+                        more time and resources one future change would be storing shareable links in a database
+                        rather than passing parameters around during navigation. The URLs ended up being
+                        large and unsightly; keeping them simple with a shareable link option could contribute
+                        nicely to the overall app experience.
+                    </p>
+                </div>
             </div>
+            <a href="#proj-2" class="carousel-next">Next</a>
         </div>
-        <div class="column is-12">
-            <h4 class="is-size-4">
-                Search Configuration Tool
-            </h4>
-            <div class="content">
-                <p>
-                    My team at Fastenal had an internal tool we used for certain aspects of product management, but the
-                    creators of the tool were no longer accessible and the tool had been built in a language my team wasn't
-                    familiar with (C#). I was tasked with migrating this tool to Java; the means of doing so were left up
-                    to me.
-                </p>
-                <p>
-                    I decided to make a Spring Boot application. This allowed me to easily configure LDAP, role-based
-                    authentication. Migrating methods from C# to Java wasn't too lofty a task as I came to find the
-                    languages quite similar. With the exception of a few methods this migration happened rather quickly.
-                </p>
-                <p>
-                    The front-end was written in AngularJS, which nobody on my team was familiar with. My team being a
-                    back-end heavy team we unfortunately didn't have any experience with any other front-end framework or
-                    tool other than jQuery. So I decided to stick with AngularJS and modify as needed. A transition to
-                    another framework would have likely been more costly than worth as AngularJS serviced the needs of the
-                    site.
-                </p>
+        <div class="column is-12 carousel-slide" id="proj-2">
+            <div class="carousel-snapper"></div>
+            <a href="#proj-1" class="carousel-prev">Previous</a>
+            <div class="carousel-slide-content">
+                <h4 class="is-size-4">
+                    Search Configuration Tool
+                </h4>
+                <div class="content">
+                    <p>
+                        My team at Fastenal had an internal tool we used for certain aspects of product management, but
+                        the
+                        creators of the tool were no longer accessible and the tool had been built in a language my team
+                        wasn't
+                        familiar with (C#). I was tasked with migrating this tool to Java; the means of doing so were
+                        left up
+                        to me.
+                    </p>
+                    <p>
+                        I decided to make a Spring Boot application. This allowed me to easily configure LDAP,
+                        role-based
+                        authentication. Migrating methods from C# to Java wasn't too lofty a task as I came to find the
+                        languages quite similar. With the exception of a few methods this migration happened rather
+                        quickly.
+                    </p>
+                    <p>
+                        The front-end was written in AngularJS, which nobody on my team was familiar with. My team being
+                        a
+                        back-end heavy team we unfortunately didn't have any experience with any other front-end
+                        framework or
+                        tool other than jQuery. So I decided to stick with AngularJS and modify as needed. A transition
+                        to
+                        another framework would have likely been more costly than worth as AngularJS serviced the needs
+                        of the
+                        site.
+                    </p>
+                </div>
             </div>
+            <a href="#proj-3" class="carousel-next">Next</a>
         </div>
-        <div class="column is-12">
-            <h4 class="is-size-4">
-                NVDanced
-            </h4>
-            <div class="content">
-                <p>
-                    I wanted to play with Spotify's APIs so I built a website using Node JS, Express, AWS,
-                    among others, which would return metrics for playlists and individual songs such as
-                    "danceability", tempo and popularity. I also wanted a tool I could use to enhance my playlist to be
-                    more dance-worthy, but it turned out simple metrics couldn't pull a good playlist from nothing.
-                </p>
-                <p>
-                    There weren't too many challenges with this project, but the project itself was rather
-                    small. Spotify made it easy to authenticate users with OAuth2 and the documentation for their
-                    APIs was quite extensive. This was my first project deploying a site through AWS so I had to
-                    familiarize myself with the CI/CD pipeline, S3 buckets and deployment configurations.
-                    I didn't fully understand rate limiting through their free tier so I pulled the site down to
-                    prevent unwanted costs.
-                </p>
+        <div class="column is-12 carousel-slide" id="proj-3">
+            <div class="carousel-snapper"></div>
+            <a href="#proj-2" class="carousel-prev">Previous</a>
+            <div class="carousel-slide-content">
+                <h4 class="is-size-4">
+                    NVDanced
+                </h4>
+                <div class="content">
+                    <p>
+                        I wanted to play with Spotify's APIs so I built a website using Node JS, Express, AWS,
+                        among others, which would return metrics for playlists and individual songs such as
+                        "danceability", tempo and popularity. I also wanted a tool I could use to enhance my playlist to
+                        be
+                        more dance-worthy, but it turned out simple metrics couldn't pull a good playlist from nothing.
+                    </p>
+                    <p>
+                        There weren't too many challenges with this project, but the project itself was rather
+                        small. Spotify made it easy to authenticate users with OAuth2 and the documentation for their
+                        APIs was quite extensive. This was my first project deploying a site through AWS so I had to
+                        familiarize myself with the CI/CD pipeline, S3 buckets and deployment configurations.
+                        I didn't fully understand rate limiting through their free tier so I pulled the site down to
+                        prevent unwanted costs.
+                    </p>
+                </div>
             </div>
+            <a href="#proj-4" class="carousel-next">Next</a>
         </div>
-        <div class="column is-12">
-            <h4 class="is-size-4">
-                WSU UPAC App
-            </h4>
-            <div class="content">
-                <p>
-                    During my junior year of college I joined the fledgling Computer Science club. In need of a project
-                    we reached out to the club in charge of hosting university events. They wanted both an iOS and
-                    Android app that would display their upcoming events and allow them to host giveaways during
-                    events. Another club member took up the iOS app so I built the Android app.
-                </p>
-                <p>
-                    This was a challenging task as I had never built an Android app before. I spent the majority of my
-                    winter break learning app development, Gradle, and Facebook's graph API. We also used a
-                    hosted database solution which has since moved to a paid model, breaking our app as
-                    interest in the project was lost and nobody want to pay to keep it up and running.
-                </p>
+        <div class="column is-12 carousel-slide" id="proj-4">
+            <div class="carousel-snapper"></div>
+            <a href="#proj-3" class="carousel-prev">Previous</a>
+            <div class="carousel-slide-content">
+                <h4 class="is-size-4">
+                    WSU UPAC App
+                </h4>
+                <div class="content">
+                    <p>
+                        During my junior year of college I joined the fledgling Computer Science club. In need of a
+                        project
+                        we reached out to the club in charge of hosting university events. They wanted both an iOS and
+                        Android app that would display their upcoming events and allow them to host giveaways during
+                        events. Another club member took up the iOS app so I built the Android app.
+                    </p>
+                    <p>
+                        This was a challenging task as I had never built an Android app before. I spent the majority of
+                        my
+                        winter break learning app development, Gradle, and Facebook's graph API. We also used a
+                        hosted database solution which has since moved to a paid model, breaking our app as
+                        interest in the project was lost and nobody want to pay to keep it up and running.
+                    </p>
+                </div>
             </div>
+            <a href="#proj-1" class="carousel-next">Next</a>
         </div>
     </div>
 </div>
