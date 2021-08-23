@@ -21860,24 +21860,30 @@ readers do not read off random characters that represent icons */
 }
 
 /* line 99, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+#home-banner-1 {
+  background-image: url("../images/tyler-lastovich-yz3Lt5Kwdi8-unsplash.jpg");
+  height: 500px;
+}
+
+/* line 103, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-top-banner {
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg");
 }
 
-/* line 102, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 106, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-mid-banner {
   background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash (1).jpg");
   height: 500px;
 }
 
-/* line 106, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 110, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-bot-banner {
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg");
   height: 500px;
 }
 
 @media screen and (max-device-width: 1023px) {
-  /* line 111, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+  /* line 115, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
   .is-parallax {
     background-attachment: scroll;
   }
