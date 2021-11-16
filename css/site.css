@@ -21735,47 +21735,50 @@ readers do not read off random characters that represent icons */
 
 /* line 11, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .project-media-left, .project-media-right {
-  max-height: 500px;
   max-width: 800px;
-  box-shadow: 2px 2px 20px rgba(10, 10, 10, 0.2);
   margin-right: 0 !important;
 }
 
-/* line 17, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 15, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+.project-media-left img, .project-media-right img {
+  box-shadow: 2px 2px 20px rgba(10, 10, 10, 0.2);
+}
+
+/* line 19, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .project-media-left {
   margin-left: 0 !important;
 }
 
-/* line 20, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 22, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .project-media-right {
   margin-left: auto !important;
 }
 
-/* line 23, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 25, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .title-text {
   text-shadow: 2px 2px 5px black;
 }
 
-/* line 26, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 28, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .is-parallax {
   background: no-repeat fixed center;
   background-size: cover;
 }
 
-/* line 30, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 32, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container {
   -ms-overflow-style: none;
   position: relative;
 }
 
-/* line 34, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 36, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel {
   overflow: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
 }
 
-/* line 39, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 41, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel::before, .carousel-container .carousel::after {
   font-family: 'Font Awesome 5 Free';
   pointer-events: none;
@@ -21786,17 +21789,17 @@ readers do not read off random characters that represent icons */
   font-size: 2rem;
 }
 
-/* line 48, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 50, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel::before {
   content: "\f053";
 }
 
-/* line 51, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 53, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-container .carousel::after {
   content: "\f054";
 }
 
-/* line 54, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 56, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-next, .carousel-prev {
   font-size: 0;
   display: block;
@@ -21805,23 +21808,23 @@ readers do not read off random characters that represent icons */
   width: 5rem;
 }
 
-/* line 61, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 63, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel::before, .carousel::after, .carousel-next, .carousel-prev {
   position: absolute;
   top: 35%;
 }
 
-/* line 65, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 67, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel::before, .carousel-prev {
   left: 0;
 }
 
-/* line 68, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 70, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel::after, .carousel-next {
   right: 0;
 }
 
-/* line 71, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 73, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-snapper {
   position: absolute;
   top: 0;
@@ -21832,25 +21835,25 @@ readers do not read off random characters that represent icons */
   pointer-events: none;
 }
 
-/* line 80, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 82, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-slide {
   position: relative;
   padding: 0;
 }
 
-/* line 84, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 86, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 .carousel-slide-content {
   padding: 3rem 5rem;
 }
 
-/* line 87, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 89, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #conor-navbar {
   position: sticky;
   top: 0;
   box-shadow: 0 -5px 10px black;
 }
 
-/* line 92, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 94, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-personal-photo {
   border-radius: 50%;
   display: flex;
@@ -21859,31 +21862,31 @@ readers do not read off random characters that represent icons */
   box-shadow: 3px 5px 10px black;
 }
 
-/* line 99, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 101, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-banner-1 {
   background-image: url("../images/tyler-lastovich-yz3Lt5Kwdi8-unsplash.jpg");
   height: 500px;
 }
 
-/* line 103, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 105, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-top-banner {
   background-image: url("../images/tobias-tullius-QTEZfr5xKF8-unsplash.jpg");
 }
 
-/* line 106, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 108, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-mid-banner {
   background-image: url("../images/connor-mcsheffrey-MIspM6HIit8-unsplash (1).jpg");
   height: 500px;
 }
 
-/* line 110, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+/* line 112, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
 #home-bot-banner {
   background-image: url("../images/aga-putra-P_p4NGz5Cb4-unsplash.jpg");
   height: 500px;
 }
 
 @media screen and (max-device-width: 1023px) {
-  /* line 115, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
+  /* line 117, ../../../WebstormProjects/ckosidow.github.io/sass/site.sass */
   .is-parallax {
     background-attachment: scroll;
   }

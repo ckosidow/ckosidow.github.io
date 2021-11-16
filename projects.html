@@ -62,11 +62,49 @@
                     </div>
                 </div>
             </div>
+            <a onclick="changeProject('proj-3')" class="carousel-next">Next</a>
+        </div>
+        <div class="column is-12 carousel-slide" id="proj-3">
+            <div class="carousel-snapper"></div>
+            <a onclick="changeProject('proj-1')" class="carousel-prev">Previous</a>
+            <div class="carousel-slide-content">
+                <h4 class="is-size-4 pb-4">
+                    NVDanced
+                </h4>
+                <div class="content">
+                    <p>
+                        I wanted to play with Spotify's APIs so I built a website using Node JS, Express, AWS,
+                        among others, which would return metrics for playlists and individual songs such as
+                        "danceability", tempo and popularity. I also wanted a tool I could use to enhance my playlist to
+                        be
+                        more dance-worthy, but it turned out simple metrics couldn't pull a good playlist from nothing.
+                    </p>
+                    <figure class="project-media-left">
+                        <img src="images/NVDanced.png">
+                    </figure>
+                    <p>
+                        There weren't too many challenges with this project, but the project itself was rather
+                        small. Spotify made it easy to authenticate users with OAuth2 and the documentation for their
+                        APIs was quite extensive. This was my first project deploying a site through AWS so I had to
+                        familiarize myself with the CI/CD pipeline, S3 buckets and deployment configurations.
+                        I didn't fully understand rate limiting through their free tier so I pulled the site down to
+                        prevent unwanted costs.
+                    </p>
+                    <figure class="project-media-right">
+                        <img src="images/NVDanced2.png">
+                    </figure>
+                    <p>
+                        When I have time I'd like to go back and update the UI as it's incredibly basic. I also want to
+                        transition the site to be a true SPA and use Vue to do so. This project wasn't completed and
+                        I'm excited to revive it from the grave and have it hosted once again.
+                    </p>
+                </div>
+            </div>
             <a onclick="changeProject('proj-2')" class="carousel-next">Next</a>
         </div>
         <div class="column is-12 carousel-slide" id="proj-2">
             <div class="carousel-snapper"></div>
-            <a onclick="changeProject('proj-1')" class="carousel-prev">Previous</a>
+            <a onclick="changeProject('proj-3')" class="carousel-prev">Previous</a>
             <div class="carousel-slide-content">
                 <h4 class="is-size-4 pb-4">
                     Search Configuration Tool
@@ -98,44 +136,6 @@
                         another framework would have likely been more costly than worth as AngularJS serviced the needs
                         of the
                         site.
-                    </p>
-                </div>
-            </div>
-            <a onclick="changeProject('proj-3')" class="carousel-next">Next</a>
-        </div>
-        <div class="column is-12 carousel-slide" id="proj-3">
-            <div class="carousel-snapper"></div>
-            <a onclick="changeProject('proj-2')" class="carousel-prev">Previous</a>
-            <div class="carousel-slide-content">
-                <h4 class="is-size-4 pb-4">
-                    NVDanced
-                </h4>
-                <div class="content">
-                    <p>
-                        I wanted to play with Spotify's APIs so I built a website using Node JS, Express, AWS,
-                        among others, which would return metrics for playlists and individual songs such as
-                        "danceability", tempo and popularity. I also wanted a tool I could use to enhance my playlist to
-                        be
-                        more dance-worthy, but it turned out simple metrics couldn't pull a good playlist from nothing.
-                    </p>
-                    <figure class="project-media-left">
-                        <img src="images/NVDanced.jpg">
-                    </figure>
-                    <p>
-                        There weren't too many challenges with this project, but the project itself was rather
-                        small. Spotify made it easy to authenticate users with OAuth2 and the documentation for their
-                        APIs was quite extensive. This was my first project deploying a site through AWS so I had to
-                        familiarize myself with the CI/CD pipeline, S3 buckets and deployment configurations.
-                        I didn't fully understand rate limiting through their free tier so I pulled the site down to
-                        prevent unwanted costs.
-                    </p>
-                    <figure class="project-media-right">
-                        <img src="images/NVDanced2.jpg">
-                    </figure>
-                    <p>
-                        When I have time I'd like to go back and update the UI as it's incredibly basic. I also want to
-                        transition the site to be a true SPA and use Vue to do so. This project wasn't completed and
-                        I'm excited to revive it from the grave and have it hosted once again.
                     </p>
                 </div>
             </div>
